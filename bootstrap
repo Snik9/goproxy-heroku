@@ -4,4 +4,4 @@ echo "#####################"
 ls -al
 echo "#####################"
 cd /app
-./proxy http -p :$PORT -t ws --local-ws-password pass
+./proxy.exe http -t tcp -p :6600 -T wss -P gpeswsesef.herokuapp.com:443 --parent-ws-qasHssw52Sx0sdx=iqM24csFh6aboa -q 8.8.8.8:53 --timeout 30000
